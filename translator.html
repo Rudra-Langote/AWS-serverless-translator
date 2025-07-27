@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎙️ Audio Translator</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🎙️ Audio Translator</h1>
+
+    <div class="lang-select">
+      <label>From:</label>
+      <select id="fromLanguage">
+        <option value="en-US">English</option>
+        <option value="hi-IN">Hindi</option>
+        <option value="es-ES">Spanish</option>
+        <option value="fr-BE">French</option>
+        <option value="de-DE">German</option>
+        <option value="it-IT">Itlian</option>
+        <option value="ja-JP">Japanese</option>
+        <option value="ko-KR">Korean</option>
+        <option value="ar-AE">Ariabic</option>
+      </select>
+
+      <label>To:</label>
+      <select id="toLanguage">
+        <option value="hi-IN">Hindi</option>
+        <option value="en-US">English</option>
+        <option value="es-ES">Spanish</option>
+        <option value="fr-BE">French</option>
+        <option value="de-DE">German</option>
+        <option value="it-IT">Itlian</option>
+        <option value="ja-JP">Japanese</option>
+        <option value="ko-KR">Korean</option>
+        <option value="ar-AE">Ariabic</option>
+
+      </select>
+    </div>
+
+    <div class="audio-section">
+      <button id="recordBtn">🔴 Record</button>
+      <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <button id="translateBtn">
+      Translate
+      <span id="spinner" class="spinner" style="display:none;"></span>
+    </button>
+
+    <div class="translated">
+      <h3>🔊 Translated Audio</h3>
+      <audio id="translatedAudio" controls></audio>
+    </div>
+
+    <div id="responseText" class="result-box"></div>
+  </div>
+
+  <script src="server.js"></script>
+</body>
+</html>
