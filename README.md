@@ -22,7 +22,7 @@ AWS Serverless Translator is a simple translator web app leveraging serverless t
 - **JavaScript (Node.js):** Backend logic
 - **HTML:** Frontend structure
 - **CSS:** Frontend styling
-- **AWS services:** (expected, as the name suggests)—details may require setup clarification
+- **AWS services:** ApiGateway, Lambda, S3, CloudWatch, Sns, Aws Transcribe, Aws Translate, Aws Polly 
 
 ## How to Use 🏗️
 
