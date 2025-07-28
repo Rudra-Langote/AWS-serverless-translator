@@ -17,12 +17,27 @@ AWS Serverless Translator is a simple translator web app leveraging serverless t
 | `style.css`       | 🎨 Stylesheet for the web page                            |
 | `images/`         | 🖼️ Folder for any images used in the UI                   |
 
+## Images Included 🖼️
+
+Here is the flow of aws serverless translator:
+
+- ![apigateway](images/translator_arc.png) 
+- for more images look images directory
+
 ## Technologies Used 🛠️
 
 - **JavaScript (Node.js):** Backend logic
 - **HTML:** Frontend structure
 - **CSS:** Frontend styling
-- **AWS services:** ApiGateway, Lambda, S3, CloudWatch, Sns, Aws Transcribe, Aws Translate, Aws Polly 
+- **AWS Services:**  
+  - Amazon API Gateway  
+  - AWS Lambda  
+  - Amazon S3  
+  - Amazon CloudWatch  
+  - Amazon SNS  
+  - Amazon Transcribe  
+  - Amazon Translate  
+  - Amazon Polly
 
 ## How to Use 🏗️
 
@@ -32,14 +47,14 @@ AWS Serverless Translator is a simple translator web app leveraging serverless t
     cd AWS-serverless-translator
     ```
 
-2. **Set up AWS credentials and environment (details to be added based on `server.js` requirements).**
+2. **Set up AWS credentials and environment** (details to be added based on `server.js` requirements).
 
-3. **Start the backend (example):**  
+3. **Start the backend:**  
     ```
     node server.js
     ```
 
-4. **Open `translator.html` in your browser to access the translator UI.**
+4. **Open `translator.html` in your browser** to access the translator UI.
 
 ## Contributing 🤝
 
